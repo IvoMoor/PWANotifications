@@ -8,8 +8,8 @@ $(document).ready(() => {
   const $isSubscribedLabel = $('#lbl-issubscribed');
 
   let jbiNotification = new JustNotification({
-    serverPublicKey: 'BIShs1Nszr58QucqJGCjQaRVVWikd-I3cf1bzu7ZG5ikpplZrQo67cp3NLlV8Pgkr6IHQ_zVGqdqoVnatpYXH0Q',
-    serverUrl: 'https://jbi-bid00.sabaas.nl:51038/subscribe',
+    serverPublicKey: '',
+    serverUrl: '',
     serviceWorkerJS: 'sw.js'
   });
   checkSubscription();
